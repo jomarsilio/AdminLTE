@@ -179,3 +179,14 @@ a:focus {
     margin-top: 5px;
   }
 }
+
+// Blockquotes
+.blockquote {
+    border-left: 5px solid @blockquote-border-color;
+    padding: 10px 20px;
+
+    &.text-right {
+        border-right: 5px solid @blockquote-border-color;
+        border-left: 0;
+    }
+}

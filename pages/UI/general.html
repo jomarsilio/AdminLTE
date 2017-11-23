@@ -777,11 +777,11 @@
                   Dropdown <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-                  <li role="presentation" class="divider"></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+                  <li class="dropdown-item" role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                  <li class="dropdown-item" role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                  <li class="dropdown-item" role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                  <li class="dropdown-divider" role="presentation"></li>
+                  <li class="dropdown-item" role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
                 </ul>
               </li>
             </ul>
@@ -840,11 +840,11 @@
                   Dropdown <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-                  <li role="presentation" class="divider"></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+                  <li class="dropdown-item" role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+                  <li class="dropdown-item" role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                  <li class="dropdown-item" role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                  <li class="dropdown-divider" role="presentation"></li>
+                  <li class="dropdown-item" role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
                 </ul>
               </li>
             </ul>
@@ -1069,7 +1069,7 @@
                       </a>
                     </h4>
                   </div>
-                  <div id="collapseOne" class="panel-collapse collapse in">
+                  <div id="collapseOne" class="panel-collapse collapse show">
                     <div class="box-body">
                       Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
                       wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
@@ -1143,21 +1143,21 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="http://placehold.it/900x500/39CCCC/ffffff&text=I+Love+Bootstrap" alt="First slide">
+                    <img src="http://placehold.it/900x500/39CCCC/ffffff&text=I+Love+Bootstrap" alt="First slide" style="width: 100%;">
 
                     <div class="carousel-caption">
                       First Slide
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="http://placehold.it/900x500/3c8dbc/ffffff&text=I+Love+Bootstrap" alt="Second slide">
+                    <img src="http://placehold.it/900x500/3c8dbc/ffffff&text=I+Love+Bootstrap" alt="Second slide" style="width: 100%;">
 
                     <div class="carousel-caption">
                       Second Slide
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="http://placehold.it/900x500/f39c12/ffffff&text=I+Love+Bootstrap" alt="Third slide">
+                    <img src="http://placehold.it/900x500/f39c12/ffffff&text=I+Love+Bootstrap" alt="Third slide" style="width: 100%;">
 
                     <div class="carousel-caption">
                       Third Slide
@@ -1249,9 +1249,9 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <blockquote>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+              <blockquote class="blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
               </blockquote>
             </div>
             <!-- /.box-body -->
@@ -1268,9 +1268,9 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body clearfix">
-              <blockquote class="float-right">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+              <blockquote class="blockquote text-right">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
               </blockquote>
             </div>
             <!-- /.box-body -->
@@ -1414,17 +1414,19 @@
               <h3 class="box-title">Description Horizontal</h3>
             </div>
             <!-- /.box-header -->
-            <div class="box-body">
-              <dl class="dl-horizontal">
-                <dt>Description lists</dt>
-                <dd>A description list is perfect for defining terms.</dd>
-                <dt>Euismod</dt>
-                <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
-                <dd>Donec id elit non mi porta gravida at eget metus.</dd>
-                <dt>Malesuada porta</dt>
-                <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
-                <dt>Felis euismod semper eget lacinia</dt>
-                <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+            <div class="box-body container-fluid">
+              <dl class="row">
+                <dt class="col-3">Description lists</dt>
+                <dd class="col-9">A description list is perfect for defining terms.</dd>
+                <dt class="col-3">Euismod</dt>
+                <dd class="col-9">
+                    <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
+                    <p>Donec id elit non mi porta gravida at eget metus.</p>
+                </dd>
+                <dt class="col-3">Malesuada porta</dt>
+                <dd class="col-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+                <dt class="col-3">Felis euismod semper eget lacinia</dt>
+                <dd class="col-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
                   sit amet risus.
                 </dd>
               </dl>
