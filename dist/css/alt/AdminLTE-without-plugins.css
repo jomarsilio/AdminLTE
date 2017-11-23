@@ -537,12 +537,9 @@ a:focus {
 .sidebar-menu > li > a > .ion {
   width: 20px;
 }
-.sidebar-menu > li .badge,
 .sidebar-menu > li .badge {
   margin-right: 5px;
-}
-.sidebar-menu > li .badge {
-  margin-top: 3px;
+  padding: .2em .6em .3em;
 }
 .sidebar-menu li.header {
   padding: 10px 25px 10px 15px;
@@ -1347,12 +1344,12 @@ a:focus {
 .form-control-feedback.fa {
   line-height: 34px;
 }
-.input-lg + .form-control-feedback.fa,
+.form-control-lg + .form-control-feedback.fa,
 .input-group-lg + .form-control-feedback.fa,
 .form-group-lg .form-control + .form-control-feedback.fa {
   line-height: 46px;
 }
-.input-sm + .form-control-feedback.fa,
+.form-control-sm + .form-control-feedback.fa,
 .input-group-sm + .form-control-feedback.fa,
 .form-group-sm .form-control + .form-control-feedback.fa {
   line-height: 30px;
