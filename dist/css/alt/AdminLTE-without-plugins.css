@@ -181,6 +181,8 @@ a:focus {
 .page-header {
   margin: 10px 0 20px 0;
   font-size: 22px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #eeeeee;
 }
 .page-header > small {
   color: #666;

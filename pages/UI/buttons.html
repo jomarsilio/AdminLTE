@@ -727,8 +727,8 @@
                           <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Dropdown link</a></li>
-                          <li><a href="#">Dropdown link</a></li>
+                          <li class="dropdown-item"><a href="#">Dropdown link</a></li>
+                          <li class="dropdown-item"><a href="#">Dropdown link</a></li>
                         </ul>
                       </div>
                     </div>
@@ -768,8 +768,8 @@
                           <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Dropdown link</a></li>
-                          <li><a href="#">Dropdown link</a></li>
+                          <li class="dropdown-item"><a href="#">Dropdown link</a></li>
+                          <li class="dropdown-item"><a href="#">Dropdown link</a></li>
                         </ul>
                       </div>
                     </div>
@@ -809,8 +809,8 @@
                           <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Dropdown link</a></li>
-                          <li><a href="#">Dropdown link</a></li>
+                          <li class="dropdown-item"><a href="#">Dropdown link</a></li>
+                          <li class="dropdown-item"><a href="#">Dropdown link</a></li>
                         </ul>
                       </div>
                     </div>
@@ -850,8 +850,8 @@
                           <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Dropdown link</a></li>
-                          <li><a href="#">Dropdown link</a></li>
+                          <li class="dropdown-item"><a href="#">Dropdown link</a></li>
+                          <li class="dropdown-item"><a href="#">Dropdown link</a></li>
                         </ul>
                       </div>
                     </div>
@@ -891,8 +891,8 @@
                           <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Dropdown link</a></li>
-                          <li><a href="#">Dropdown link</a></li>
+                          <li class="dropdown-item"><a href="#">Dropdown link</a></li>
+                          <li class="dropdown-item"><a href="#">Dropdown link</a></li>
                         </ul>
                       </div>
                     </div>
@@ -909,43 +909,34 @@
               <h3 class="box-title">Button Addon</h3>
             </div>
             <div class="box-body">
-              <p>With dropdown</p>
 
-              <div class="input-group margin">
-                <div class="input-group-btn">
-                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">Action
-                    <span class="fa fa-caret-down"></span></button>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                  </ul>
+                <label>With dropdown</label>
+                <div class="input-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle input-group-addon" data-toggle="dropdown">Action</button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="#">Action</a></li>
+                        <li class="dropdown-item"><a href="#">Another action</a></li>
+                        <li class="dropdown-item"><a href="#">Something else here</a></li>
+                        <li class="dropdown-divider"></li>
+                        <li class="dropdown-item"><a href="#">Separated link</a></li>
+                    </ul>
+                    <input type="text" class="form-control">
                 </div>
-                <!-- /btn-group -->
-                <input type="text" class="form-control">
-              </div>
-              <!-- /input-group -->
-              <p>Normal</p>
-
-              <div class="input-group margin">
-                <div class="input-group-btn">
-                  <button type="button" class="btn btn-danger">Action</button>
+                <br />
+                
+                <label>Normal</label>
+                <div class="input-group">
+                    <button type="button" class="btn btn-danger input-group-addon" data-toggle="dropdown">Action</button>
+                    <input type="text" class="form-control">
                 </div>
-                <!-- /btn-group -->
-                <input type="text" class="form-control">
-              </div>
-              <!-- /input-group -->
-              <p>Flat</p>
+                <br />
 
-              <div class="input-group margin">
-                <input type="text" class="form-control">
-                    <span class="input-group-btn">
-                      <button type="button" class="btn btn-info btn-flat">Go!</button>
-                    </span>
-              </div>
-              <!-- /input-group -->
+                <label>Flat</label>
+                <div class="input-group">
+                    <input type="text" class="form-control">
+                    <button type="button" class="btn btn-info btn-flat input-group-addon" data-toggle="dropdown">Go!</button>
+                </div>
+
             </div>
             <!-- /.box-body -->
           </div>
@@ -967,11 +958,11 @@
                     <span class="sr-only">Toggle Dropdown</span>
                   </button>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li class="dropdown-item"><a href="#">Action</a></li>
+                    <li class="dropdown-item"><a href="#">Another action</a></li>
+                    <li class="dropdown-item"><a href="#">Something else here</a></li>
+                    <li class="dropdown-divider"></li>
+                    <li class="dropdown-item"><a href="#">Separated link</a></li>
                   </ul>
                 </div>
                 <div class="btn-group">
@@ -981,11 +972,11 @@
                     <span class="sr-only">Toggle Dropdown</span>
                   </button>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li class="dropdown-item"><a href="#">Action</a></li>
+                    <li class="dropdown-item"><a href="#">Another action</a></li>
+                    <li class="dropdown-item"><a href="#">Something else here</a></li>
+                    <li class="dropdown-divider"></li>
+                    <li class="dropdown-item"><a href="#">Separated link</a></li>
                   </ul>
                 </div>
                 <div class="btn-group">
@@ -995,11 +986,11 @@
                     <span class="sr-only">Toggle Dropdown</span>
                   </button>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li class="dropdown-item"><a href="#">Action</a></li>
+                    <li class="dropdown-item"><a href="#">Another action</a></li>
+                    <li class="dropdown-item"><a href="#">Something else here</a></li>
+                    <li class="dropdown-divider"></li>
+                    <li class="dropdown-item"><a href="#">Separated link</a></li>
                   </ul>
                 </div>
                 <div class="btn-group">
@@ -1009,11 +1000,11 @@
                     <span class="sr-only">Toggle Dropdown</span>
                   </button>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li class="dropdown-item"><a href="#">Action</a></li>
+                    <li class="dropdown-item"><a href="#">Another action</a></li>
+                    <li class="dropdown-item"><a href="#">Something else here</a></li>
+                    <li class="dropdown-divider"></li>
+                    <li class="dropdown-item"><a href="#">Separated link</a></li>
                   </ul>
                 </div>
                 <div class="btn-group">
@@ -1023,11 +1014,11 @@
                     <span class="sr-only">Toggle Dropdown</span>
                   </button>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li class="dropdown-item"><a href="#">Action</a></li>
+                    <li class="dropdown-item"><a href="#">Another action</a></li>
+                    <li class="dropdown-item"><a href="#">Something else here</a></li>
+                    <li class="dropdown-divider"></li>
+                    <li class="dropdown-item"><a href="#">Separated link</a></li>
                   </ul>
                 </div>
               </div>
@@ -1042,11 +1033,11 @@
                     <span class="sr-only">Toggle Dropdown</span>
                   </button>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li class="dropdown-item"><a href="#">Action</a></li>
+                    <li class="dropdown-item"><a href="#">Another action</a></li>
+                    <li class="dropdown-item"><a href="#">Something else here</a></li>
+                    <li class="dropdown-divider"></li>
+                    <li class="dropdown-item"><a href="#">Separated link</a></li>
                   </ul>
                 </div>
                 <div class="btn-group">
@@ -1056,11 +1047,11 @@
                     <span class="sr-only">Toggle Dropdown</span>
                   </button>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li class="dropdown-item"><a href="#">Action</a></li>
+                    <li class="dropdown-item"><a href="#">Another action</a></li>
+                    <li class="dropdown-item"><a href="#">Something else here</a></li>
+                    <li class="dropdown-divider"></li>
+                    <li class="dropdown-item"><a href="#">Separated link</a></li>
                   </ul>
                 </div>
                 <div class="btn-group">
@@ -1070,11 +1061,11 @@
                     <span class="sr-only">Toggle Dropdown</span>
                   </button>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li class="dropdown-item"><a href="#">Action</a></li>
+                    <li class="dropdown-item"><a href="#">Another action</a></li>
+                    <li class="dropdown-item"><a href="#">Something else here</a></li>
+                    <li class="dropdown-divider"></li>
+                    <li class="dropdown-item"><a href="#">Separated link</a></li>
                   </ul>
                 </div>
                 <div class="btn-group">
@@ -1084,11 +1075,11 @@
                     <span class="sr-only">Toggle Dropdown</span>
                   </button>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li class="dropdown-item"><a href="#">Action</a></li>
+                    <li class="dropdown-item"><a href="#">Another action</a></li>
+                    <li class="dropdown-item"><a href="#">Something else here</a></li>
+                    <li class="dropdown-divider"></li>
+                    <li class="dropdown-item"><a href="#">Separated link</a></li>
                   </ul>
                 </div>
                 <div class="btn-group">
@@ -1098,11 +1089,11 @@
                     <span class="sr-only">Toggle Dropdown</span>
                   </button>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li class="dropdown-item"><a href="#">Action</a></li>
+                    <li class="dropdown-item"><a href="#">Another action</a></li>
+                    <li class="dropdown-item"><a href="#">Something else here</a></li>
+                    <li class="dropdown-divider"></li>
+                    <li class="dropdown-item"><a href="#">Separated link</a></li>
                   </ul>
                 </div>
               </div>
@@ -1309,8 +1300,8 @@
                           <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Dropdown link</a></li>
-                          <li><a href="#">Dropdown link</a></li>
+                          <li class="dropdown-item"><a href="#">Dropdown link</a></li>
+                          <li class="dropdown-item"><a href="#">Dropdown link</a></li>
                         </ul>
                       </div>
                     </div>
@@ -1350,8 +1341,8 @@
                           <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Dropdown link</a></li>
-                          <li><a href="#">Dropdown link</a></li>
+                            <li class="dropdown-item"><a href="#">Dropdown link</a></li>
+                            <li class="dropdown-item"><a href="#">Dropdown link</a></li>
                         </ul>
                       </div>
                     </div>
@@ -1391,8 +1382,8 @@
                           <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Dropdown link</a></li>
-                          <li><a href="#">Dropdown link</a></li>
+                            <li class="dropdown-item"><a href="#">Dropdown link</a></li>
+                            <li class="dropdown-item"><a href="#">Dropdown link</a></li>
                         </ul>
                       </div>
                     </div>
@@ -1432,8 +1423,8 @@
                           <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Dropdown link</a></li>
-                          <li><a href="#">Dropdown link</a></li>
+                            <li class="dropdown-item"><a href="#">Dropdown link</a></li>
+                            <li class="dropdown-item"><a href="#">Dropdown link</a></li>
                         </ul>
                       </div>
                     </div>
@@ -1473,8 +1464,8 @@
                           <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Dropdown link</a></li>
-                          <li><a href="#">Dropdown link</a></li>
+                            <li class="dropdown-item"><a href="#">Dropdown link</a></li>
+                            <li class="dropdown-item"><a href="#">Dropdown link</a></li>
                         </ul>
                       </div>
                     </div>
