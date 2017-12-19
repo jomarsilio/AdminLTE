@@ -48,7 +48,7 @@ body {
   position: relative;
 }
 .layout-boxed {
-  background: url('../../img/boxed-bg.jpg') repeat fixed;
+  background: url('../img/boxed-bg.jpg') repeat fixed;
 }
 /*
  * Content Wrapper - contains the main content
@@ -936,6 +936,7 @@ a:focus {
 .dropdown-menu {
   box-shadow: none;
   border-color: #eee;
+  font-size: 14px !important;
 }
 .dropdown-menu > li > a {
   color: #777;

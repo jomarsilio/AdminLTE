@@ -936,6 +936,7 @@ a:focus {
 .dropdown-menu {
   box-shadow: none;
   border-color: #eee;
+  font-size: 14px !important;
 }
 .dropdown-menu > li > a {
   color: #777;
