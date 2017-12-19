@@ -938,15 +938,15 @@ a:focus {
   border-color: #eee;
   font-size: 14px !important;
 }
-.dropdown-menu > li > a {
+.dropdown-menu > .dropdown-item {
   color: #777;
 }
-.dropdown-menu > li > a > .glyphicon,
-.dropdown-menu > li > a > .fa,
-.dropdown-menu > li > a > .ion {
+.dropdown-menu > .dropdown-item > .glyphicon,
+.dropdown-menu > .dropdown-item > .fa,
+.dropdown-menu > .dropdown-item > .ion {
   margin-right: 10px;
 }
-.dropdown-menu > li > a:hover {
+.dropdown-menu > .dropdown-item:hover {
   background-color: #e1e3e9;
   color: #333;
 }
