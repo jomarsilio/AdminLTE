@@ -48,7 +48,7 @@ body {
   position: relative;
 }
 .layout-boxed {
-  background: url('../img/boxed-bg.jpg') repeat fixed;
+  background: url('../../img/boxed-bg.jpg') repeat fixed;
 }
 /*
  * Content Wrapper - contains the main content
@@ -2472,24 +2472,32 @@ a:focus {
   background: #f7f7f7;
 }
 /* NAV PILLS */
-.nav-pills > .nav-item > .nav-link {
+.nav-pills > .nav-item > .nav-link,
+.nav-pills > .nav-item.nav-link {
   border-radius: 0;
   border-top: 3px solid transparent;
   color: #444;
 }
 .nav-pills > .nav-item > .nav-link > .fa,
+.nav-pills > .nav-item.nav-link > .fa,
 .nav-pills > .nav-item > .nav-link > .glyphicon,
-.nav-pills > .nav-item > .nav-link > .ion {
+.nav-pills > .nav-item.nav-link > .glyphicon,
+.nav-pills > .nav-item > .nav-link > .ion,
+.nav-pills > .nav-item.nav-link > .ion {
   margin-right: 5px;
 }
-.nav-pills > .nav-item > .nav-link.active {
+.nav-pills > .nav-item > .nav-link.active,
+.nav-pills > .nav-item.nav-link.active {
   font-weight: 600;
   border-top-color: #3c8dbc;
+  background: none;
 }
-.nav-pills > .nav-item > .nav-link.active:hover {
+.nav-pills > .nav-item > .nav-link.active:hover,
+.nav-pills > .nav-item.nav-link.active:hover {
   border-top-color: #3c8dbc;
 }
-.nav-pills > .nav-item > .nav-link.active:focus {
+.nav-pills > .nav-item > .nav-link.active:focus,
+.nav-pills > .nav-item.nav-link.active:focus {
   border-top-color: #3c8dbc;
 }
 /* NAV STACKED */
